@@ -1,6 +1,6 @@
 {
   "name": "statamic-iconsets",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A Statamic fieldtype for selecting icons from multiple folders",
   "scripts": {
     "dev": "vite",

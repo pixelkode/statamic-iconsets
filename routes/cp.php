@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Mynetx\Iconsets\Http\Controllers\IconsetFieldtypeController;
+use Pixelkode\Iconsets\Http\Controllers\IconsetFieldtypeController;
 
 /*
 |--------------------------------------------------------------------------

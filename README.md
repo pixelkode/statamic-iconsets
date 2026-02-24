@@ -13,7 +13,7 @@ A Statamic fieldtype that allows selecting icons from multiple folders/sets with
 ## Installation
 
 ```bash
-composer require mynetx/statamic-iconsets
+composer require pixelkode/statamic-iconsets
 php artisan vendor:publish --tag=statamic-iconsets
 ```
 

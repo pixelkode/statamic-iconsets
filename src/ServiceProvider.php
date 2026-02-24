@@ -1,6 +1,6 @@
 <?php
 
-namespace Mynetx\Iconsets;
+namespace Pixelkode\Iconsets;
 
 use Statamic\Providers\AddonServiceProvider;
 
@@ -24,6 +24,6 @@ class ServiceProvider extends AddonServiceProvider
         $this->loadRoutesFrom(__DIR__.'/../routes/cp.php');
 
         // Register translations with custom namespace
-        $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'mynetx-iconsets');
+        $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'pixelkode-iconsets');
     }
 }

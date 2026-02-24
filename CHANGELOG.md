@@ -7,7 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2025-01-20
+## [2.0.0] - 2026-02-24
+
+### Changed
+
+- Transfer repository to Pixelkode organization, package name and namespace update
+- Compatible with Statamic 6
+
+## [1.0.0] - 2026-01-20
 
 ### Added
 
@@ -21,5 +28,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Raw SVG output in Antlers templates via `{{ icon }}` tag
 - Forward-compatible design with Statamic 6's icon set pattern
 
-[Unreleased]: https://github.com/mynetx/statamic-iconsets/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/mynetx/statamic-iconsets/releases/tag/v1.0.0
+[Unreleased]: https://github.com/pixelkode/statamic-iconsets/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/pixelkode/statamic-iconsets/releases/tag/v1.0.0

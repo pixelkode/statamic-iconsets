@@ -1,6 +1,6 @@
 <?php
 
-namespace Mynetx\Iconsets\Http\Controllers;
+namespace Pixelkode\Iconsets\Http\Controllers;
 
 use Facades\Statamic\Fields\FieldtypeRepository as Fieldtype;
 use Illuminate\Http\Request;

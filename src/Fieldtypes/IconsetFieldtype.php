@@ -1,6 +1,6 @@
 <?php
 
-namespace Mynetx\Iconsets\Fieldtypes;
+namespace Pixelkode\Iconsets\Fieldtypes;
 
 use Statamic\Facades\File;
 use Statamic\Facades\Folder;
@@ -65,25 +65,25 @@ class IconsetFieldtype extends Fieldtype
     {
         return [
             [
-                'display' => __('mynetx-iconsets::messages.section.selection'),
+                'display' => __('pixelkode-iconsets::messages.section.selection'),
                 'fields' => [
                     'directory' => [
-                        'display' => __('mynetx-iconsets::messages.fields.directory.display'),
-                        'instructions' => __('mynetx-iconsets::messages.fields.directory.instructions'),
+                        'display' => __('pixelkode-iconsets::messages.fields.directory.display'),
+                        'instructions' => __('pixelkode-iconsets::messages.fields.directory.instructions'),
                         'type' => 'text',
                         'default' => 'resources/svg/icons',
                         'placeholder' => 'resources/svg/icons',
                         'width' => 50,
                     ],
                     'folders' => [
-                        'display' => __('mynetx-iconsets::messages.fields.folders.display'),
-                        'instructions' => __('mynetx-iconsets::messages.fields.folders.instructions'),
+                        'display' => __('pixelkode-iconsets::messages.fields.folders.display'),
+                        'instructions' => __('pixelkode-iconsets::messages.fields.folders.instructions'),
                         'type' => 'list',
                         'width' => 50,
                     ],
                     'default' => [
-                        'display' => __('mynetx-iconsets::messages.fields.default.display'),
-                        'instructions' => __('mynetx-iconsets::messages.fields.default.instructions'),
+                        'display' => __('pixelkode-iconsets::messages.fields.default.display'),
+                        'instructions' => __('pixelkode-iconsets::messages.fields.default.instructions'),
                         'type' => 'text',
                     ],
                 ],

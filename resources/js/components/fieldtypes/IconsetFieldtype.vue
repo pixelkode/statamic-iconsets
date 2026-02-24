@@ -9,7 +9,7 @@
             :name="name"
             :disabled="config.disabled || isReadOnly"
             :options="options"
-            :placeholder="__(config.placeholder || 'mynetx-iconsets::messages.ui.search_placeholder')"
+            :placeholder="__(config.placeholder || 'pixelkode-iconsets::messages.ui.search_placeholder')"
             :searchable="true"
             :multiple="false"
             :close-on-select="true"
@@ -36,7 +36,7 @@
             </template>
         </v-select>
         <div v-else class="text-xs text-gray-600 dark:text-dark-150 py-2">
-            {{ __('mynetx-iconsets::messages.ui.loading') }}
+            {{ __('pixelkode-iconsets::messages.ui.loading') }}
         </div>
     </div>
 </template>
