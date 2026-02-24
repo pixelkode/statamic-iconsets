@@ -1,14 +1,11 @@
 {
-  "resources/js/iconset.css": {
-    "file": "assets/iconset-70c7344b.css",
-    "src": "resources/js/iconset.css"
-  },
   "resources/js/iconset.js": {
-    "css": [
-      "assets/iconset-70c7344b.css"
-    ],
-    "file": "assets/iconset-05af7834.js",
+    "file": "assets/iconset-C1HwOCQ9.js",
+    "name": "iconset",
+    "src": "resources/js/iconset.js",
     "isEntry": true,
-    "src": "resources/js/iconset.js"
+    "css": [
+      "assets/iconset-PkkLL4kA.css"
+    ]
   }
 }
