@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Deprecated
+
+- **This package is deprecated and abandoned.** Statamic 6 ships a native `icon`
+  fieldtype with custom sets via `Icon::register()`, which supersedes this addon.
+  The repository has been archived and the marketplace listing marked abandoned.
+  See the migration guide in the README.
+
 ## [2.0.0] - 2026-02-24
 
 ### Changed

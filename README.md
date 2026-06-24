@@ -1,6 +1,48 @@
 # Statamic Icon Sets
 
+> ⚠️ **Deprecated — no longer maintained.**
+> This addon has been *sherlocked* by Statamic 6: the native `icon` fieldtype combined with
+> `Icon::register()` now covers everything this package did (custom SVG sets, visual picker,
+> raw-SVG output via `{{ icon }}`) — with a better UI. New projects should use the native
+> fieldtype. See **[Migration](#migration-to-the-native-icon-fieldtype)** below.
+
 A Statamic fieldtype that allows selecting icons from multiple folders/sets with visual preview and grouping.
+
+## Migration to the native `icon` fieldtype
+
+Statamic 6 replaced the old `directory:` option with registered icon **sets**.
+
+1. Register your set in `app/Providers/AppServiceProvider.php` (`boot()`):
+
+   ```php
+   use Statamic\Facades\Icon;
+
+   Icon::register('myset', base_path('resources/svg/icons/<folder>'));
+   ```
+
+2. Update the blueprint field — replace:
+
+   ```yaml
+   icon:
+     type: iconset
+     folders:
+       - <folder>
+   ```
+
+   with:
+
+   ```yaml
+   icon:
+     type: icon
+     set: myset
+   ```
+
+3. **Multiple sets in one field** was this addon's only feature core doesn't replicate.
+   Use one native field per set, or register a single combined set directory.
+
+4. **Stored values differ.** This addon stored `folder/filename`; the native `icon`
+   fieldtype stores its own value. Existing entries must be re-selected (or migrated with a
+   one-off script). Template output via `{{ icon }}` (raw SVG) is unchanged.
 
 ## Features
 
@@ -97,8 +139,8 @@ After making changes to the Vue components, run `npm run build` to compile the a
 
 ## Requirements
 
-- PHP 8.1+
-- Statamic 5.0+
+- PHP 8.3+
+- Statamic 6.0+
 
 ## License
 

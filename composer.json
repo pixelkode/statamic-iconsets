@@ -1,6 +1,7 @@
 {
     "name": "pixelkode/statamic-iconsets",
-    "description": "A Statamic fieldtype for selecting icons from multiple folders/sets",
+    "description": "[DEPRECATED] A Statamic fieldtype for selecting icons from multiple folders/sets",
+    "abandoned": "statamic/cms",
     "keywords": [
         "statamic",
         "icons",
